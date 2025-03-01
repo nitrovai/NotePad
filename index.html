@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePad</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <input type="text" class="search-bar" placeholder="Search notes..." id="searchInput">
+        <button class="add-btn" onclick="createNewNote()">
+            <span class="material-icons">add</span>
+            New Note
+        </button>
+    </div>
+
+    <div class="notes-grid" id="notesContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
